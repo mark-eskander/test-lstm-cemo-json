@@ -7,8 +7,8 @@ from keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 import pickle
 
-# nltk.download('punkt')
-# nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('stopwords')
 stopword = nltk.corpus.stopwords.words('english')
 
 # here i put the directory of the same dictionary but in the main notebook
